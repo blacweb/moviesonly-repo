@@ -1,0 +1,94 @@
+.luckiest-guy-regular {
+  font-family: "Luckiest Guy", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+  background: rgb(190, 5, 5);
+}
+#logo {
+  text-decoration: none;
+  font-size: 65px;
+  color: white;
+  font-family: "Luckiest Guy", cursive;
+  font-weight: bold;
+  padding: 10px;
+}
+#sign-up {
+  text-decoration: none;
+  color: white;
+  transition:0.2s;
+  font-family: "Times New Roman", Times, serif;
+}
+#sign-up:hover {
+  color: black;
+}
+.feature {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 25px;
+  font-weight: bold;
+  padding: 2rem;
+}
+.main-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+.featured {
+  background: rgb(190, 5, 5);
+  text-decoration: none;
+  font-size: 20px;
+  border: 1px solid black;
+  padding: 2rem;
+  display: block;
+  margin: 1rem;
+  height: 20rem;
+  width: 14rem;
+  color: white;
+  transition: 0.2s;
+}
+.featured:hover {
+  color: black;
+}
+.Top-performing{
+        display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+.top {
+  font-size: 25px;
+  font-weight: bold;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  padding: 2rem;
+}
+
+.Top {
+  background: rgb(190, 5, 5);
+  text-decoration: none;
+  font-size: 20px;
+  border: 1px solid black;
+  padding: 2rem;
+  display: block;
+  margin: 1rem;
+  width: 14rem;
+  color: white;
+  transition: 0.2s;
+}
+.Top:hover {
+  color: black;
+}
